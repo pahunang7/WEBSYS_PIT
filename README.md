@@ -1,6 +1,6 @@
 Name: Pahunang, Juliana Mei T. Section: 2R6
 Video Link: https://youtu.be/NyCIm-ftrMo
-GitHub Pages Link:
+GitHub Pages Link: https://pahunang7.github.io/WEBSYS_PIT/ 
 
 ## Appendix A: AI Use Declaration
 
