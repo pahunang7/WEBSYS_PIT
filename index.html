@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery-script.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Resume</title>
+  </head>
+
+  <header>
+    <div class="navbar">
+      <a href="#About"><strong>About</strong></a>
+      <a href="#Education"><strong>Education</strong></a>
+      <a href="#Skills"><strong>Skills</strong></a>
+      <a href="#Projects"><strong>Projects</strong></a>
+      <a href="#Contact"><strong>Contact</strong></a>
+    </div>
+  </header>
+
+  <body>
+    <div>
+      <button id="darkmodebtn"><strong>Toggle Dark Mode</strong></button>
+    </div>
+
+    <div><img src="assets/juls.jpg" alt="Juliana Mei T. Pahunang" class="photo" /></div>
+
+    <div class="resume">
+      <section id="About">
+        <p><strong>Name: </strong> Juliana Mei T. Pahunang</p>
+        <p><strong>Phone:</strong> 0926-819-0316</p>
+        <p><strong>Email:</strong> pahunang.juliana777@gmail.com</p>
+        <hr />
+        <h1>About me</h1>
+        <p>
+          A promising IT student from the <em>University of Science and Technology of Southern Philippines</em>, that does commissions from time to time from designing to video editing. I am a
+          hardworking and determined individual who is always eager to learn new things and take on new challenges. thus, cultivating my adaptability. I am also a team player who is able to work well
+          with others and communicate effectively. I am confident that I have the skills and experience necessary to succeed in the IT industry, and I am excited to see where my career will take me in
+          the future.
+        </p>
+      </section>
+
+      <section id="Education">
+        <hr />
+        <h1><strong>Education</strong></h1>
+        <ul>
+          <li><strong>Elementary:</strong> East City Central School</li>
+          <hr />
+          <li><strong>High School:</strong> Lapasan National High School</li>
+          <hr />
+          <li><strong>College:</strong> University of Science and Technology of Southern Philippines</li>
+        </ul>
+      </section>
+
+      <section id="Skills">
+        <hr />
+        <h1><strong>Skills</strong></h1>
+        <ul id="skills-list">
+          <li>Basic Designing: Eloquent in Figma & Expert in Canva</li>
+          <li>Editor: Can do basic video edits.</li>
+        </ul>
+        <button id="skillbtn">Add Skill</button>
+        <button id="togglebtn">Show/Hide Skills</button>
+        <button id="highlight-new-btn">Highlight New Skills</button>
+        <button id="remove-highlight-btn">Remove Highlight</button>
+      </section>
+
+      <section id="Projects">
+        <hr />
+        <h1><strong>Projects</strong></h1>
+        <ul>
+          <li><strong>Project 1:</strong> Developed a Tetris game during the second semester of 1st yr college.</li>
+          <li><strong>Project 2:</strong> Created billing systems during the first sem of 2nd year college.</li>
+
+          <li id="moreprojects" style="display: none">
+            <ul>
+              <li><strong>Project 3:</strong> Database Management System</li>
+              <li><strong>Project 4:</strong> Basic Web Application</li>
+            </ul>
+          </li>
+        </ul>
+        <button id="toggle-projects-btn">View More</button>
+      </section>
+
+      <section id="Contact">
+        <hr />
+        <h1><strong>Contact Form</strong></h1>
+        <form id="contactform" method="post">
+          <label for="name"> <strong>Name:</strong></label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email"> <strong>Email:</strong></label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message"> <strong>Message:</strong></label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit" id="butz"><strong>Submit</strong></button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
